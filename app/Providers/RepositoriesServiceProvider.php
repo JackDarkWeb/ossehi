@@ -25,12 +25,11 @@ use App\Repositories\Eloquents\NewsLetterRepository;
 use App\Repositories\Eloquents\PostRepository;
 use App\Repositories\Eloquents\ProductRepository;
 use App\Repositories\Eloquents\ResetPasswordRepository;
+use App\Repositories\Eloquents\StoreProductRepository;
 use App\Repositories\Eloquents\StoreRepository;
 use App\Repositories\Eloquents\UserRepository;
 use App\Repositories\Eloquents\VariousRepository;
 use App\Repositories\ShippingOrderRepository;
-use App\Repositories\StoreProductRepository;
-use App\Services\Contracts\ResetPasswordServiceContract;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoriesServiceProvider extends ServiceProvider
